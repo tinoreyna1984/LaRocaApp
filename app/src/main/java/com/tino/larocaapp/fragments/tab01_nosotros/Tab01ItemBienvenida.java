@@ -27,8 +27,8 @@ public class Tab01ItemBienvenida extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        String mensajeBienvenida = "Bienvenidos a nuestra iglesia.\n" +
-                "Esperamos que sea de edificación y bendición para cada uno\n" +
+        String mensajeBienvenida = "Bienvenidos a nuestra iglesia.\n\n" +
+                "Esperamos que sea de edificación y bendición para cada uno " +
                 "de ustedes.\n\n" +
                 "Para la gloria de Nuestro Señor Jesucristo y para ayudarles.";
 

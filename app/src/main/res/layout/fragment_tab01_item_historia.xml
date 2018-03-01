@@ -5,12 +5,21 @@
     tools:context="com.tino.larocaapp.fragments.tab01_nosotros.Tab01ItemHistoria">
 
     <!-- TODO: Update blank fragment layout -->
-
-
-    <TextView
-        android:id="@+id/textHistoria"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/linearHistoria"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/texto_historia" />
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textHistoria"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:fontFamily="serif"
+            android:text="@string/coming_on"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+    </LinearLayout>
 </FrameLayout>
