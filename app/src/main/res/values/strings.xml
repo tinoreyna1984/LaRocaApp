@@ -22,7 +22,7 @@
     <string name="tab02_item_devocional">Devocional</string>
     <string name="tab02_item_lhs">La Hora Silenciosa</string>
     <!--items del tab Ministerios-->
-    <string name="tab03_servicios">Servicios</string>
+    <string name="tab03_item_cultos">Cultos Dominicales</string>
     <string name="tab03_item_escuela_dom">Escuela Dominical</string>
     <string name="tab03_item_oansa">Oansa (Awana)</string>
     <string name="tab03_item_70x7">70 veces 7</string>
@@ -59,7 +59,6 @@
         11. El mundo.\n
         12. El gobierno civil.\n\n
     </string>
-
 
 
 </resources>

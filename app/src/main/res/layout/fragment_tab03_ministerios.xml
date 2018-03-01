@@ -2,25 +2,81 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.tino.larocaapp.fragments.Tab03Ministerios"
     android:theme="@style/MyLayoutTheme">
 
-    <LinearLayout
-        android:id="@+id/linearMinisterios"
+    <!-- NOTA: ViewPager encima de TabLayout -->
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vpMinisterios"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab03Ministerios"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:orientation="vertical">
+        app:tabMode="scrollable">
 
-        <TextView
-            android:id="@+id/textMinisterios"
-            android:layout_width="match_parent"
-            android:layout_height="36dp"
-            android:layout_gravity="center"
-            android:fontFamily="serif"
-            android:text="@string/coming_on"
-            android:textAlignment="center"
-            android:textSize="18sp" />
-    </LinearLayout>
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab03_item_cultos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab03_item_cultos" />
 
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab03_item_escuela_dominical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab03_item_escuela_dom" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab03_item_oansa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab03_item_oansa" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab03_item_70x7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab03_item_70x7" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab03_item_trascender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab03_item_trascender" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab03_item_impacta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab03_item_impacta" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab03_item_varones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab03_item_varones" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab03_item_damas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab03_item_damas" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab03_item_misioneros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab03_item_misiones" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab03_item_matrimonios"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab03_item_matrimonios" />
+    </android.support.design.widget.TabLayout>
 </FrameLayout>
