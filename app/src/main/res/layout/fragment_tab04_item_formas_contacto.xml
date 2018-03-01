@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tino.larocaapp.fragments.tab04_contacto.Tab04ItemFormasContacto">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:id="@+id/linearContacto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textFormasContacto"
+            android:layout_width="312dp"
+            android:layout_height="60dp"
+            android:fontFamily="serif"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btFacebook"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="182dp"
+            android:layout_height="181dp"
+            android:fontFamily="sans-serif"
+            android:textAllCaps="false" />
+    </LinearLayout>
+</FrameLayout>

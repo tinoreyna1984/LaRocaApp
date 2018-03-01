@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tino.larocaapp.fragments.Tab01Nosotros"
+    android:theme="@style/MyLayoutTheme">
+
+    <!-- NOTA: ViewPager encima de TabLayout -->
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vpNosotros"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab01Nosotros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabMode="scrollable">
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab01_item_bienvenida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab01_item_bienvenida" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab01_item_historia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab01_item_historia" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab01_item_vision_mision"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab01_item_vision_mision" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab01_item_declaracion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab01_item_declaracion" />
+    </android.support.design.widget.TabLayout>
+
+</FrameLayout>

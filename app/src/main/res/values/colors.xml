@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--Mis colores-->
+    <color name="blanco">#FFFFFF</color>
+    <color name="negro">#000000</color>
+    <color name="azul">#3F51B5</color>
+    <color name="rojo">#C91313</color>
+    <color name="amarillo">#fff30d</color>
+    <color name="verde">#1fdf09</color>
+    <color name="purpura">#af30e1</color>
+    <color name="naranja">#f59517</color>
+    <color name="gris">#979ca1</color>
+    <color name="gris_fuerte">#616263</color>
+
+</resources>

@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tino.larocaapp.fragments.Tab02Recursos"
+    android:theme="@style/MyLayoutTheme">
+
+    <!-- NOTA: ViewPager encima de TabLayout -->
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vpRecursos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab02Recursos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabMode="scrollable">
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab02_item_sermones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab02_item_sermones" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab02_item_devocional"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab02_item_devocional" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab02_item_lhs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab02_item_lhs" />
+    </android.support.design.widget.TabLayout>
+
+</FrameLayout>

@@ -1,0 +1,34 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tino.larocaapp.fragments.Tab04Contacto"
+    android:theme="@style/MyLayoutTheme">
+
+    <!-- NOTA: ViewPager encima de TabLayout -->
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vpContacto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab04Contacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab04_item_motivos_oracion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab04_item_motivos_oracion" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab04_formas_contacto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab04_item_formas_contacto" />
+
+    </android.support.design.widget.TabLayout>
+
+</FrameLayout>

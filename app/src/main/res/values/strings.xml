@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">La Capilla de la Roca</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Ajustes</string>
+    <string name="coming_on">En construcción...</string>
+
+    <!--tabs principales-->
+    <string name="tab01_nosotros">Nosotros</string>
+    <string name="tab02_recursos">Recursos</string>
+    <string name="tab03_ministerios">Ministerios</string>
+    <string name="tab04_contacto">Contacto</string>
+    <!--items del tab Nosotros-->
+    <string name="tab01_item_bienvenida">Bienvenida</string>
+    <string name="tab01_item_historia">Historia</string>
+    <string name="tab01_item_vision_mision">Visión y Misión</string>
+    <string name="tab01_item_declaracion">Declaración de fe</string>
+    <!--items del tab Recursos-->
+    <string name="tab02_item_sermones">Sermones</string>
+    <string name="tab02_item_devocional">Devocional</string>
+    <string name="tab02_item_lhs">La Hora Silenciosa</string>
+    <!--items del tab Ministerios-->
+    <string name="tab03_servicios">Servicios</string>
+    <string name="tab03_item_escuela_dom">Escuela Dominical</string>
+    <string name="tab03_item_oansa">Oansa (Awana)</string>
+    <string name="tab03_item_70x7">70 veces 7</string>
+    <string name="tab03_item_trascender">Trascender</string>
+    <string name="tab03_item_impacta">Impacta</string>
+    <string name="tab03_item_varones">Varones</string>
+    <string name="tab03_item_damas">Damas</string>
+    <string name="tab03_item_misiones">Misiones</string>
+    <string name="tab03_item_matrimonios">Matrimonios</string>
+    <!--items del tab Contacto-->
+    <string name="tab04_item_motivos_oracion">Motivos de Oración</string>
+    <string name="tab04_item_formas_contacto">Formas de contacto</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="acerca_del_app">Acerca del app</string>
+    <string name="dialog_message">Desarrollado por Tino Reyna\nemail: tinoreyna1984@gmail.com\nTodos los derechos reservados.</string>
+    <string name="texto_bienvenida">_</string>
+    <string name="hecho">Hecho</string>
+    <string name="texto_historia">Nuestra historia es muy bonita.</string>
+    <string name="texto_vision_mision">Visión y Misión</string>
+    <string name="texto_declaracion">
+        Creemos en los siguientes artículos de fe\n
+        1. Las Sagradas Escrituras.\n
+        2. El Dios Verdadero.\n
+        3. El Señor Jesucristo.\n
+        4. El Espíritu Santo.\n
+        5. El hombre.\n
+        6. La Salvación.\n
+        7. La Iglesia.\n
+        8. El Bautismo y la Cena del Señor.\n
+        9. El estado eterno.\n
+        10. Satanás.\n
+        11. El mundo.\n
+        12. El gobierno civil.\n\n
+    </string>
+
+
+
+</resources>

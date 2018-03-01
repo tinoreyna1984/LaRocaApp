@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tino.larocaapp.fragments.tab01_nosotros.Tab01ItemBienvenida">
+
+
+    <LinearLayout
+        android:id="@+id/linearBienvenida"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textBienvenida"
+            android:layout_width="308dp"
+            android:layout_height="149dp"
+            android:layout_gravity="center"
+            android:fontFamily="serif"
+            android:text="@string/texto_bienvenida"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/imagePortada"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
+            android:src="@drawable/portada" />
+
+    </LinearLayout>
+</FrameLayout>
