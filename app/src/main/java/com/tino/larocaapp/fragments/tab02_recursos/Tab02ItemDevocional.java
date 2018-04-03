@@ -12,6 +12,7 @@ import android.widget.TextView;
 import com.tino.larocaapp.R;
 
 import java.util.Date;
+import java.util.GregorianCalendar;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -33,10 +34,11 @@ public class Tab02ItemDevocional extends Fragment {
         View view = inflater.inflate(R.layout.fragment_tab02_item_devocional, container, false);
 
         // Contenido a ser "inflado"
-        Date date = new Date();
+        GregorianCalendar calendar = new GregorianCalendar();
 
         String link = "http://es.gospeltranslations.org/wiki/La_Chequera_del_Banco_de_la_Fe/"
-                + String.valueOf(date.getDate()) + "_de_" + obtieneMes(date.getMonth());
+                + String.valueOf(calendar.get(GregorianCalendar.DATE)) + "_de_"
+                + obtieneMes(calendar.get(GregorianCalendar.MONTH));
         String mensajeDevocional =  "La Chequera del Banco de la Fe,\n" +
                                     "de Charles H. Spurgeon (1834-1892)\n\n" +
                                     "Puede visualizar el devocional del día aquí:\n";
