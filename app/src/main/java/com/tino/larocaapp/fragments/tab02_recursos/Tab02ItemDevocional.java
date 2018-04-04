@@ -4,6 +4,7 @@ package com.tino.larocaapp.fragments.tab02_recursos;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.text.method.LinkMovementMethod;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,8 +12,11 @@ import android.widget.TextView;
 
 import com.tino.larocaapp.R;
 
+import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
+import java.util.SimpleTimeZone;
+import java.util.TimeZone;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -21,6 +25,7 @@ public class Tab02ItemDevocional extends Fragment {
 
     private TextView textDevocional;
     private TextView textLink;
+    private String TAG = "DEB";
 
     public Tab02ItemDevocional() {
         // Required empty public constructor
@@ -35,6 +40,10 @@ public class Tab02ItemDevocional extends Fragment {
 
         // Contenido a ser "inflado"
         GregorianCalendar calendar = new GregorianCalendar();
+        Date date = Calendar.getInstance().getTime();
+        calendar.setTime(date);
+        Log.i(TAG, "Fecha: " + date.toString());
+
 
         String link = "http://es.gospeltranslations.org/wiki/La_Chequera_del_Banco_de_la_Fe/"
                 + String.valueOf(calendar.get(GregorianCalendar.DATE)) + "_de_"
@@ -56,40 +65,40 @@ public class Tab02ItemDevocional extends Fragment {
         String strMes = new String();
 
         switch(mes){
-            case 1:
+            case 0:
                 strMes = "Enero";
                 break;
-            case 2:
+            case 1:
                 strMes = "Febrero";
             break;
-            case 3:
+            case 2:
                 strMes = "Marzo";
             break;
-            case 4:
+            case 3:
                 strMes = "Abril";
             break;
-            case 5:
+            case 4:
                 strMes = "Mayo";
             break;
-            case 6:
+            case 5:
                 strMes = "Junio";
             break;
-            case 7:
+            case 6:
                 strMes = "Julio";
             break;
-            case 8:
+            case 7:
                 strMes = "Agosto";
             break;
-            case 9:
+            case 8:
                 strMes = "Septiembre";
             break;
-            case 10:
+            case 9:
                 strMes = "Octubre";
             break;
-            case 11:
+            case 10:
                 strMes = "Noviembre";
             break;
-            case 12:
+            case 11:
                 strMes = "Diciembre";
             break;
         }
